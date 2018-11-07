@@ -1,12 +1,12 @@
 # Semi-Supervised-Segmentation-Pytorch
 A repository for semi supervised image segmentation using Mean Teacher it includes the following features:
 
-Easy to train on new Train and Test sets using the provided notebook.
-Different Pre trained Networks.
-Many different Losses.
-TensorboardX integration. 
-Hyperparameter tuning. 
-Data Loader with Image Augmentation. 
+- Easy to train on new Train and Test sets using the provided notebook.
+- Different Pre trained Networks.
+- Many different Losses.
+- TensorboardX integration. 
+- Hyperparameter tuning. 
+- Data Loader with Image Augmentation. 
 
 TBD:
 Testing, code not fully functional yet. 
