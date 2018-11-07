@@ -175,7 +175,8 @@ def train(train_loader,segmentation_module,segmentation_ema,optimizer
         ema_loss=(lovasz_loss_ema*lovasz_scaling+focal_loss_ema*focal_scaling).cuda()
 
         total_loss=(non_ema_loss*non_ema_scaling+ema_loss*ema_scaling+unsupervised_scaling*unsupervised_loss).cuda()
-
+        #Need to give it as softmaxes 
+        pred = nn.functional.softmax(pred, dim=1)
         iou_score=IOU_Score(pred,batch_data["seg_label"])
         
         ### BW ####
