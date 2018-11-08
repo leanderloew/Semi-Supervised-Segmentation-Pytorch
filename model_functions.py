@@ -1,7 +1,7 @@
 import sys
 # the mock-0.3.1 dir contains testcase.py, testutils.py & mock.py
 sys.path.append('/home/ubuntu/Kaggle_Pytorch_TGS/semantic-segmentation-pytorch')
-from models.models import *
+from models import *
 from torchvision.transforms import Normalize
 
 def build_segmentation_model(in_arch="resnet101_dilated8",out_arch="upernet",droppout=0.1):
