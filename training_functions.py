@@ -143,6 +143,12 @@ def train(train_loader,segmentation_module,segmentation_ema,optimizer
     ave_focal_loss_ema = AverageMeter()
     ave_unsupervised_loss = AverageMeter()
     ave_iou_score = AverageMeter()
+    if train==True:
+        segmentation_module.train()
+        segmentation_ema.train()
+    else:
+        segmentation_module.eval()
+        segmentation_ema.eval()
     
     for batch_data in train_loader:
         
