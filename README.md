@@ -13,7 +13,8 @@ Testing, code not fully functional yet.
 A learned GAN loss. 
 
 Sources: 
--I took the pre trained networks and encoder/decoder code from: 
--https://github.com/CSAILVision/semantic-segmentation-pytorch/blob/master/LICENSE
--Much of the Mean Teacher Code was taken from: 
--https://github.com/CuriousAI/mean-teacher
+
+- I took the pre trained networks and encoder/decoder code from: 
+- https://github.com/CSAILVision/semantic-segmentation-pytorch/blob/master/LICENSE
+- Much of the Mean Teacher Code was taken from: 
+- https://github.com/CuriousAI/mean-teacher
