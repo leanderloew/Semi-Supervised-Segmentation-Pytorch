@@ -9,7 +9,6 @@ A repository for semi supervised image segmentation using Mean Teacher it includ
 - Data Loader with Image Augmentation. 
 
 TBD:
-Testing, code not fully functional yet. 
 A learned GAN loss. 
 
 Sources: 
